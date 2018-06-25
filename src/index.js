@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import App from './App';
 import Login from './components/Login';
 import NotFound from './components/NotFound';
-import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
 const routes = (
