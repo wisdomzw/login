@@ -1,0 +1,18 @@
+button {
+    background: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .05em;
+    padding: 12px 0;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    transition: all ease .2s;
+    
+    &:hover {
+        background: $accent;
+    }
+}
